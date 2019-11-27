@@ -1,0 +1,76 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+
+    <link rel="stylesheet" href="css/main.css">
+    <link href="font-awesome/fontawesome-free-5.8.1-web/css/all.css" rel="stylesheet">
+
+    <title>PROJECT NAME GOES HERE</title>
+  </head>
+  <body>
+<div id="bg">
+    <img src="img/poster-0.jpg" alt="poster0">
+  <div id="blackLayer"></div>
+</div>
+
+<div class="title">Music Player</div>
+<div id="main">
+  <div id="image">
+     
+    <img src="img/poster-0.jpg" alt="">
+  </div>
+  <div id="player">
+    <div class="songContainer">
+      <div id="singTitle">Example song One</div>
+    </div>
+      <div class="audio">
+          <i class="fas fa-volume-up" id="volume-up"></i> 
+          <input type="range" min="0" max="1" value="1" step="0.01" class="volume" id="volume">
+          <!-- <i class="fas fa-volume-mute" id="mute"></i> -->
+        
+      </div>
+    
+    
+    
+    <div id="buttons">
+      
+      <button id="prev"><i class="fas fa-backward"></i></button>
+      <button id="play"><i class="far fa-play-circle"></i></button>
+      <button id="next"><i class="fas fa-forward"></i></button>
+    </div>
+    <div id="seek-bar">
+      <input type="range" min="1" max="100" value="0" class="slider" id="fill">
+
+            <!-- <div id="handle"></div> -->
+        
+      
+    
+      </div>
+  </div>
+ 
+</div>
+<div id="tracks">
+  <h4>Track List</h4>
+  <ul id="trackList"></ul>
+  <p class="text muted text-center powered">Royalty Free Music By Bensound</p>
+</div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <!-- My scripts-->
+  <!-- <script src="https://unpkg.com/wavesurfer.js"></script> -->
+  <script src="scripts/script.js"></script>
+
+</body>
+</html>
